@@ -1,5 +1,10 @@
 # @khantsithu/expo-settings
 
+[![npm version](https://badge.fury.io/js/expo-settings.svg)](http://badge.fury.io/js/expo-settings.svg)
+[![npm total downloads](https://img.shields.io/npm/dt/expo-settings.svg)](https://img.shields.io/npm/dt/expo-settings.svg)
+[![npm monthly downloads](https://img.shields.io/npm/dm/expo-settings.svg)](https://img.shields.io/npm/dm/react-native-jsi-device-info.svg)
+[![npm weekly downloads](https://img.shields.io/npm/dw/expo-settings.svg)](https://img.shields.io/npm/dw/expo-settings.svg)
+
 It is a native module developed in accordance with the official Expo tutorial and tested with Expo Modules API 1.0: JSI & Fabric native modules with idiomatic Swift & Kotlin API..
 
 [Expo Tutorial: Creating a native module](https://docs.expo.dev/modules/native-module-tutorial/)
