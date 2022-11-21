@@ -1,0 +1,48 @@
+{
+  "name": "@khantsithu/expo-settings",
+  "version": "0.1.0",
+  "description": "build a native module using Expo Modules API",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "open -a \"Xcode\" example/ios",
+    "open:android": "open -a \"Android Studio\" example/android"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "expo-settings",
+    "ExpoSettings"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khantsithu1998/expo-settings.git"
+  },
+  "bugs": {
+    "url": "https://github.com/khantsithu1998/expo-settings/issues"
+  },
+  "author": "Khant Si Thu <khantsithu.work@gmail.com> (https://github.com/khantsithu1998)",
+  "license": "MIT",
+  "homepage": "https://github.com/khantsithu1998/expo-settings#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-native": "^0.70.6",
+    "expo-module-scripts": "^3.0.3",
+    "expo-modules-core": "^1.0.3"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  },
+  "directories": {
+    "example": "example"
+  }
+}
