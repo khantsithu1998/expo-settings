@@ -1,6 +1,6 @@
 {
   "name": "@khantsithu/expo-settings",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Build A Native Module Using Expo Modules API",
   "main": "build/index.js",
   "types": "build/index.d.ts",
