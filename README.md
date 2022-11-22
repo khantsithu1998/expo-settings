@@ -7,8 +7,15 @@ It is a native module developed in accordance with the official Expo tutorial an
 
 ### Add the package to your npm dependencies
 
+npm
 ```
 npm install @khantsithu/expo-settings
+```
+or
+
+Yarn
+```
+yarn add @khantsithu/expo-settings
 ```
 
 ### Configure for Expo
@@ -44,7 +51,16 @@ npx expo run:ios
 ```
 ### Configure for Plain React Native
 
+You must install expo-modules if they are not already installed.
+
 ```sh
+npx install-expo-modules
+```
+
+and
+
+```sh
+cd ios
 pod install
 ```
 
